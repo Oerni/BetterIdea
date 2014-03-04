@@ -19,4 +19,8 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/Oerni/BetterIdea.git

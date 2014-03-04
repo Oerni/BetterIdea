@@ -13,4 +13,5 @@
 	<string name="logo">Logo</string>
 	<string name="facebook">facebook</string>
 	<string name="google">google</string>
+	<string name="action_logout">logout</string>
 </resources>

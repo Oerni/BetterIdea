@@ -22,10 +22,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="50dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:layout_marginTop="50dp" >
+                android:layout_margin="35dp" >
 
                 <TextView
                     android:id="@+id/textView2"
@@ -54,22 +51,19 @@
             android:orientation="horizontal" >
 
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/zettel1" >
 
                 <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="50dp"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginRight="60dp"
-                    android:layout_marginTop="50dp" >
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="20dp" >
 
                     <TextView
                         android:id="@+id/TextView02"
-                        android:layout_width="85dp"
-                        android:layout_height="66dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:text="@string/test_text"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -84,10 +78,7 @@
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="50dp"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginRight="60dp"
-                    android:layout_marginTop="50dp" >
+                    android:layout_margin="20dp" >
 
                     <TextView
                         android:id="@+id/TextView01"

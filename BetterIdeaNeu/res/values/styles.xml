@@ -10,7 +10,7 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
-        <item name="bgColor">#00000</item>
+        <item name="bgColor">red</item>
     </style>
 
     <!-- Application theme. -->

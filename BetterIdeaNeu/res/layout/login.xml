@@ -39,9 +39,11 @@
 
     <Button
         android:id="@+id/button1"
+        style="@android:style/Widget.ActionBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:contentDescription="@string/login"
         android:text="@string/login" />
 
     <LinearLayout
@@ -70,9 +72,11 @@
 
     <Button
         android:id="@+id/button2"
+        style="@android:style/Widget.ActionBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:contentDescription="@string/register"
         android:text="@string/register" />
 
 </LinearLayout>

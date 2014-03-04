@@ -30,6 +30,11 @@ public class MainActivity extends Activity {
     		startActivity(intent);
     		System.out.println("Test");
     		return true;
+    	case R.id.action_settings:
+    		Intent intent1 = new Intent(this,SettingActivity.class);
+    		startActivity(intent1);
+    		System.out.println("Test");
+    		return true;
     	default:
     		return super.onOptionsItemSelected(item);
     	}

@@ -5,11 +5,13 @@
     android:orientation="vertical"
     android:padding="20dp" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="fill_parent"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:src="@drawable/logo" />
+        android:background="@drawable/logo"
+        android:contentDescription="@string/login" >
+
+    </FrameLayout>
 
     <EditText
         android:id="@+id/editText1"
@@ -51,6 +53,7 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:baselineAlignBottom="false"
             android:src="@drawable/google" />
 

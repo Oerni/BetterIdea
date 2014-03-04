@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/addidea"
+          android:title="@string/action_add"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_search1"
+          android:title="@string/action_search"
+          android:icon="@drawable/lupe"
+		  android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Better Idea</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="add_image">Add Image</string>
+    <string name="search_image">Search Image</string>
+    <string name="test_text">Ideenmanagement App #1.... Wir haben die Aufgabe bekommen eine native App für die "Mobile" Vorlesung zu erstellen.</string>
+	<string name="action_search">Search</string>
+	<string name="action_add">Add</string>
+	<string name="login">Login</string>
+	<string name="register">Register</string>
+	
+</resources>

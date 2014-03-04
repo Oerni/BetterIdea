@@ -10,5 +10,7 @@
 	<string name="action_add">Add</string>
 	<string name="login">Login</string>
 	<string name="register">Register</string>
-	
+	<string name="logo">Logo</string>
+	<string name="facebook">facebook</string>
+	<string name="google">google</string>
 </resources>

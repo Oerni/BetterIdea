@@ -2,14 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:contentDescription="@string/logo_image"
     android:orientation="vertical"
     android:padding="20dp" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:contentDescription="@string/logo_image"
+        android:src="@drawable/logoBig" />
+
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/logo"
-        android:contentDescription="@string/login" >
+        android:layout_height="wrap_content"
+        android:background="@id/TextView01" >
 
     </FrameLayout>
 
@@ -47,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/facebook"
             android:src="@drawable/facebook" />
 
         <ImageView
@@ -55,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:baselineAlignBottom="false"
+            android:contentDescription="@string/google"
             android:src="@drawable/google" />
 
     </LinearLayout>

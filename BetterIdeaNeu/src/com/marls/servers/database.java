@@ -1,4 +1,4 @@
-package com.examples.servers;
+package com.marls.servers;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

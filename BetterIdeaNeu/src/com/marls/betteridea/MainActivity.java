@@ -1,4 +1,6 @@
-package com.example.betteridea;
+package com.marls.betteridea;
+
+import com.example.betteridea.R;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -35,7 +37,7 @@ public class MainActivity extends Activity {
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationList = (ListView) findViewById(R.id.left_drawer);        
         navigationList.setAdapter(new ArrayAdapter<String>(this,R.layout.navigation_list_item,navigation));
-        navigationList.setItemChecked(0,true);
+//        navigationList.setItemChecked(0,true);
         navigationList.setOnItemClickListener(new NavigationItemClickListener());
     }
     
@@ -70,7 +72,6 @@ public class MainActivity extends Activity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-//    	System.out.println("Test");
     	switch(item.getItemId()){
     	case R.id.action_add:
     		return true;

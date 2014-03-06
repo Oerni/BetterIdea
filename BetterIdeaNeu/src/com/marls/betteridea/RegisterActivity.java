@@ -1,4 +1,6 @@
-package com.example.betteridea;
+package com.marls.betteridea;
+
+import com.example.betteridea.R;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -70,6 +70,7 @@ public class MainActivity extends Activity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
+//    	System.out.println("Test");
     	switch(item.getItemId()){
     	case R.id.action_add:
     		return true;

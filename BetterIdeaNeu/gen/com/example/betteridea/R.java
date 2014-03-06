@@ -34,19 +34,20 @@ public final class R {
         public static final int addidea=0x7f020000;
         public static final int facebook=0x7f020001;
         public static final int google=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int logo=0x7f020004;
-        public static final int logo_frei=0x7f020005;
-        public static final int logo_new=0x7f020006;
-        public static final int logobig=0x7f020007;
-        public static final int lupe=0x7f020008;
-        public static final int note=0x7f020009;
-        public static final int note_footer=0x7f02000a;
-        public static final int note_header=0x7f02000b;
-        public static final int options=0x7f02000c;
-        public static final int zettel1=0x7f02000d;
-        public static final int zettel2=0x7f02000e;
-        public static final int zettel3=0x7f02000f;
+        public static final int ic_action_search=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int logo=0x7f020005;
+        public static final int logo_frei=0x7f020006;
+        public static final int logo_new=0x7f020007;
+        public static final int logobig=0x7f020008;
+        public static final int lupe=0x7f020009;
+        public static final int note=0x7f02000a;
+        public static final int note_footer=0x7f02000b;
+        public static final int note_header=0x7f02000c;
+        public static final int options=0x7f02000d;
+        public static final int zettel1=0x7f02000e;
+        public static final int zettel2=0x7f02000f;
+        public static final int zettel3=0x7f020010;
     }
     public static final class id {
         public static final int TextView01=0x7f0a0008;
@@ -55,9 +56,9 @@ public final class R {
         public static final int TextView04=0x7f0a000b;
         public static final int TextView05=0x7f0a000c;
         public static final int TextView06=0x7f0a000a;
-        public static final int action_add=0x7f0a0018;
+        public static final int action_add=0x7f0a0019;
         public static final int action_logout=0x7f0a001b;
-        public static final int action_search1=0x7f0a0019;
+        public static final int action_search1=0x7f0a0018;
         public static final int action_settings=0x7f0a001a;
         public static final int calendarView1=0x7f0a0017;
         public static final int content_frame=0x7f0a000e;
@@ -113,6 +114,7 @@ public final class R {
         public static final int password_hint=0x7f060011;
         public static final int register=0x7f060004;
         public static final int search_image=0x7f06000c;
+        public static final int search_text=0x7f060019;
         public static final int test_text=0x7f06000d;
         public static final int title_activity_login=0x7f06000e;
         public static final int user_hint=0x7f060010;

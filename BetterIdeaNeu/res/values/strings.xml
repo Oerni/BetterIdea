@@ -26,4 +26,5 @@
 	<string name="last_ideas">Letzte Ideen</string>
 	<string name="label_options">Einstellungen</string>
 	<string name="label_language">Sprache</string>
+	<string name="search_text">Suchbegriff</string>
 </resources>

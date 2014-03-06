@@ -15,15 +15,15 @@
         android:theme="@style/AppTheme" >
     
         <activity
-            android:name="com.marls.betteridea.MainActivity"
+            android:name="com.betteridea.activities.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.marls.betteridea.OptionsActivity"
+            android:name="com.betteridea.activities.OptionsActivity"
             android:label="@string/label_options" >
         </activity>
         <activity
-            android:name="com.marls.betteridea.LoginActivity"
+            android:name="com.betteridea.activities.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
             <intent-filter>

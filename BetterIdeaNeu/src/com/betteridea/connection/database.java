@@ -1,4 +1,4 @@
-package com.marls.servers;
+package com.betteridea.connection;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

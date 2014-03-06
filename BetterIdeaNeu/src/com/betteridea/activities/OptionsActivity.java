@@ -1,4 +1,4 @@
-package com.marls.betteridea;
+package com.betteridea.activities;
 
 import com.example.betteridea.R;
 
